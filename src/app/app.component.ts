@@ -8,10 +8,17 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 
-  counter = 0
+  counter = 0;
 
-  incDec(type: string) {
-    (type=='subtract') ? this.counter-- : this.counter++
+  increment() {
+    this.counter += 5;
   }
 
+  decrement() {
+    this.counter -= 5;
+  }
+
+  incDec(type: string) {
+    (type == 'subtract') ? this.decrement() : this.increment();
+  }
 }
