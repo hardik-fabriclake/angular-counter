@@ -1,5 +1,4 @@
 {
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
@@ -16,5 +15,17 @@
       "preLaunchTask": "npm: test",
       "url": "http://localhost:9876/debug.html"
     }
+  ],
+  "compounds": [
+    {
+      "name": "ng build & serve",
+      "configurations": [
+        "ng build",
+        "ng serve"
+      ]
+    }
+  ],
+  "extensions": [
+    "version": "16.0.0"
   ]
 }

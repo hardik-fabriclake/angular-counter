@@ -14,3 +14,40 @@ quote_type = single
 [*.md]
 max_line_length = off
 trim_trailing_whitespace = false
+
+# Upgraded dependencies
+[package.json]
+dependencies {
+  "@angular/core": "16.0.0",
+  "@angular/common": "16.0.0",
+  "@angular/compiler": "16.0.0",
+  "@angular/platform-browser": "16.0.0",
+  "@angular/platform-browser-dynamic": "16.0.0"
+}
+
+[package-lock.json]
+"@angular/core": {
+  "version": "16.0.0",
+  "resolved": "https://registry.npmjs.org/@angular/core/-/core-16.0.0.tgz",
+  "integrity": "sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+},
+"@angular/common": {
+  "version": "16.0.0",
+  "resolved": "https://registry.npmjs.org/@angular/common/-/common-16.0.0.tgz",
+  "integrity": "sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+},
+"@angular/compiler": {
+  "version": "16.0.0",
+  "resolved": "https://registry.npmjs.org/@angular/compiler/-/compiler-16.0.0.tgz",
+  "integrity": "sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+},
+"@angular/platform-browser": {
+  "version": "16.0.0",
+  "resolved": "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-16.0.0.tgz",
+  "integrity": "sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+},
+"@angular/platform-browser-dynamic": {
+  "version": "16.0.0",
+  "resolved": "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-16.0.0.tgz",
+  "integrity": "sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+}

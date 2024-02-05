@@ -1,8 +1,8 @@
 # SimpleCounter
 
-## Simple counter application created using Angular 15
+## Simple counter application created using Angular 16
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
 ## Development server
 
